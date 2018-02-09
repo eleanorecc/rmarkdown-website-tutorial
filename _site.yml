@@ -8,8 +8,6 @@ navbar:
       href: basic_workflow.html
     - text: "Getting Sophisticated"
       href: getting_sophisticated.html
-    - text: "Your Turn"
-      href: your_turn.html
 output_dir: "."
 output:
   html_document:
