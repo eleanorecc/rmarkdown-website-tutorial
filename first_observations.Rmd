@@ -1,14 +1,20 @@
 ---
-title: "First Observations"
+title: "First Observations & Introduction to RMarkdown"
 ---
+<br>
 
-### Cool Links about RMarkdown**
+### RMarkdown Resources
+
+**Links about RMarkdown and making Websites with RMarkdown**  
 [Video Introducing RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)
 [Gallery of documents created with RMarkdown](https://rmarkdown.rstudio.com/gallery.html)
+[RStudio's R Markdown lessons](http://rmarkdown.rstudio.com/lesson-1.html)
+[Markdown Appearance & Style Options](https://rmarkdown.rstudio.com/html_document_format.html#appearance_and_style)
 
+RMarkdown Quick Reference from the Help menu provides info on adding emphasis, formatting headers and lists, adding images and the like
+RMarkdown Cheatsheets can be found under Help > Cheatsheets
 
 ----
-
 
 ### This Website
 
@@ -18,8 +24,11 @@ This website has 4 pages:
 - First Observations
 - Basic Workflow
 - Getting Sophisticated
-  
-  
+
+----
+
+
+
 
 
 
