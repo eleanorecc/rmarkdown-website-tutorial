@@ -4,3 +4,82 @@ output: html_document
 ---
 
 Notes from training sessions?
+<br>
+
+## February 2nd
+
+
+<br>
+
+## February 9th
+
+### Introduction to RStudio
+
+link to data science training textbook: <http://ohi-science.org/data-science-training/rstudio.html>
+
+Shortcut for "<-" on a mac is option(alt) "-"
+Help > Keyboard shortcuts, to get tips on other shortcuts
+With autocomplete in RStudio, can hit tab to complete
+
+Can use logical operators to test variable values
+
+When variables rely on other variables, need to update them all to reflect changes
+
+Double question mark pulls up lots of links in help panel with possible helpful information -- packages or functions
+utils are some base R packages
+
+Not all functions need an arguement within parentheses
+date() function gives current time and date
+objects() function returns a list of all objects currently in environment; ls() does the same thing
+rm(var_name) will remove the object called var_name from the environemnt
+To remove anything, can write rm(list = ls()), this does the same thing as the broom icon in the environment panel
+
+Clearing environment and resetting RStudio session makes sure there aren't any artifacts that interfer with analysis; important in reproducible science
+To restart, session > restart R
+
+<br>
+
+### R Markdown
+
+Double hashtags precede a header
+<> enclose a url
+** ** enclose bolded text
+'echo' parameter set to false represses the code and just displays output
+See Help > Markdown Quick Reference for more details on formatting
+Can include typeset equations with latex synatx where "$" on either side displays as inline and "$$" on either side displays in equation environment
+
+<br>
+
+### GitHub
+
+Version control system  
+Saves time because most recent version is always in one place, and everyone who needs access has it  
+
+Git requires installation on computer; works behind the scenes to version everything
+GitHub helps one visualize difference between versions line-by-line, more than just changing name in personal file system
+
+Student with .edu email address, means github will give you 5 free repositories, otherwise for free accounts everything is public  
+
+Things like branches and pull requests not necessary for science work when starting out...  
+
+Clones are not discrete downloads; when sync back to github, will be pulling remote changes and pushing local changes
+
+Repositories contain all stuff for distinct project
+Create a new repository by clicking New on Repository page
+
+Create space in GitHub, clone repository, and do work and create files in R
+Create R project with clone url, press tab to autofill project name, and save in github folder
+Saved edits to files in project folder will show up in Git window
+Green "A" means file was added, and blue "M" means modified
+Checking "Staged" box and clicking "commit" button will open commit dialog box; can commit change, the pull and push
+Pull -> commit -> pull -> push
+
+Add a brief but useful commit message, must have a commit message to push changes
+In GitHub can look at past commits, and copy SHA if want go back to previous versions
+If stage, commit and then make more changes before pull/push, staged box will turn blue and that means need to commit new changes
+
+.md Markdown file is precursor to .rmd
+
+Times associated with commits in github are not time they were pushed, but times that they were actually commited locally
+
+Fork to copy repository from another github user into your own github as a repository
