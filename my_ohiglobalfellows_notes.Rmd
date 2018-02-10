@@ -1,0 +1,6 @@
+---
+title: "my_ohiglobalfellows_notes"
+output: html_document
+---
+
+Notes from training sessions?
